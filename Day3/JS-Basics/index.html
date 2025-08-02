@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Basics Workshop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>JavaScript Basics</h1>
+    <h2>Open the Console to See Output</h2>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="changeText()">Change Text</button>
+    <p id="demo">This is a paragraph.</p>
+
+    <hr />
+    <h2>Advanced JavaScript Features</h2>
+    <div>
+      <button onclick="showTemplateLiteral()">Show Template Literal</button>
+      <p id="templateLiteralResult"></p>
+    </div>
+    <div>
+      <button onclick="showDestructuring()">Show Destructuring</button>
+      <p id="destructuringResult"></p>
+    </div>
+    <div>
+      <button onclick="showArrayMethods()">Show Array Methods</button>
+      <p id="arrayMethodsResult"></p>
+    </div>
+    <div>
+      <button onclick="showClassDemo()">Show Class Demo</button>
+      <p id="classDemoResult"></p>
+    </div>
+    <div>
+      <button onclick="showAsyncAwait()">Show Async/Await Fetch</button>
+      <p id="asyncAwaitResult"></p>
+    </div>
+    <div>
+      <button onclick="showLocalStorage()">Show localStorage</button>
+      <p id="localStorageResult"></p>
+    </div>
+    <div>
+      <button onclick="showErrorHandling()">Show Error Handling</button>
+      <p id="errorHandlingResult"></p>
+    </div>
+
+    <hr />
+    <h2>More Interactive JavaScript Features</h2>
+    <div>
+      <h3>Dynamic List</h3>
+      <input id="itemInput" type="text" placeholder="Add item" />
+      <button onclick="addItem()">Add</button>
+      <ul id="dynamicList"></ul>
+    </div>
+    <div>
+      <h3>Color Changer</h3>
+      <button onclick="changeBgColor()">Change Background Color</button>
+    </div>
+    <div>
+      <h3>Image Toggle</h3>
+      <button onclick="toggleImage()">Toggle Image</button>
+      <br />
+      <img
+        id="toggleImg"
+        src="https://placekitten.com/200/200"
+        alt="Kitten"
+        style="display: block; margin: 10px 0; max-width: 200px"
+      />
+    </div>
+    <div>
+      <h3>Live Clock</h3>
+      <span id="clock"></span>
+    </div>
+    <div>
+      <h3>Theme Switcher</h3>
+      <button onclick="toggleTheme()">Toggle Dark/Light Theme</button>
+    </div>
+    <div>
+      <h3>Input Validation</h3>
+      <input id="emailInput" type="email" placeholder="Enter email" />
+      <button onclick="validateEmail()">Validate</button>
+      <span id="emailValidationResult"></span>
+    </div>
+
+    <script src="MyScript.js"></script>
+  </body>
+</html>
